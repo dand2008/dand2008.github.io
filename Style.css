@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    transition-duration: 1s;
+    font-family: Poppins;
+}
+
+#CurrentPage::after{
+    content: ' ';
+    display: block;
+    position: absolute;
+    height: 1.3px;
+    width: 45px;
+    background-color: #000000;
+    z-index: 3;
+} 
+
+body{
+    overflow-x: hidden;
+}
+
+/* ! nav bar + wrong code*/
+/* #nav_bar{
+    width: 100%;
+    padding-top: 2.2vw;
+    padding-bottom: 2.2vw;
+    padding-left: 4vw;
+    pointer-events: auto;
+    background-color: white;
+    z-index: 2;
+}
+
+#header-title-nav-wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 1 0 67%;
+    align-items: center;
+}
+
+#header-main-title{
+    margin-right: 3.5vw;
+    float: left;
+}
+
+#header-title-text{
+    color: black;
+    font-size: 32px;
+
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+}
+
+.nav-keys{
+    margin-right: 1.5vw;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 1;
+    transition-duration: 500ms;
+}
+
+.nav-keys:hover{
+    border-radius: 3pt;
+    box-shadow: 7px 7px 10px 0px #2e2e2e;
+}
+
+#social-media-icons{
+position: relative;
+left: -250px;
+top: -45px;
+float: right;
+display: flex;
+}
+
+.header-img-warper{
+    margin-left: 20px;
+}
+
+#CurrentPage::after{
+    content: ' ';
+    display: block;
+    position: absolute;
+    height: 1.3px;
+    width: 50px;
+    background-color: #000000;
+    z-index: 3;
+} */
+
+/* ! main-wide-img */
+
+#main-wide-img{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/60367ca7c45d794f12ccb688/1616770100244-TN8IKC9XKOUO8EY10K3P/IMG_1473.jpg?format=original");
+    height: 1100px;
+    width: 100%;
+
+    background-repeat: no-repeat;
+	/* background-size: cover; */
+
+    z-index: 1;
+}
+

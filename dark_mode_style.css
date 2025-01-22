@@ -1,0 +1,71 @@
+.dark-mode {
+    background: linear-gradient(to right top, #000000, #222222);
+    color: bisque;
+    
+
+#nav_bar{
+    background: none;
+}
+
+#dark-mode-button::after{
+    background-color: yellow;
+    transform: translateX(63px);
+}
+
+#dark-mode-button:hover::after{
+    transform: translateX(55px);
+    
+}
+
+/* .read_more{
+    color:rgb(250, 218, 179);
+    background-color: rgba(255, 228, 196, 0.534);
+    transition-duration: 250ms;   
+}
+
+.read_more:hover{
+    color:rgb(250, 218, 179);
+    background-color: rgba(245, 245, 220, 0.37);
+    
+} */
+}
+
+#dark-mode-button::after{
+    content: '';
+    background-color: #222222e3;
+    /* z-index: 100; */
+    height: 25px;
+    width: 25px;
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    bottom: 3px;
+    /* left: -5px; */
+    color: bisque;
+    pointer-events: none;
+    transition-duration: 500ms;
+}
+
+#dark-mode-button:hover::after{
+    height: 25px;
+    width: 35px;
+    border-radius: 50px;
+}
+
+#dark-mode-button{
+    background: none;
+    box-shadow: 7px 7px 10px 5px #2e2e2e;
+    padding: 5px;
+    border-radius: 50px;
+    transition-duration: 250ms;
+    border: none;
+    height: 30px;
+    width: 100px;
+    overflow: hidden;
+
+    
+}
+
+/* #dark-mode-button:hover{
+    background: rgba(0, 0, 0, 0.250);
+} */

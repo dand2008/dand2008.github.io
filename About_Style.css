@@ -1,0 +1,281 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    transition-duration: 50ms;
+    font-family: Poppins;
+    scroll-behavior: smooth;
+
+    
+}
+
+html{
+    /* background-image: url(https://eventtools.event.microsoft.com/ignite2023/FY24_Ignite_Ph1_Launch1_Homepage_Hero_Wave_Desktop_1920×2010.png),
+    url(https://eventtools.event.microsoft.com/cdn/Ignite2023/home/phase1/FY24_Ignite_Ph1_Launch1_Homepage_Hero_Desktop_1920%C3%972400.jpg?sv=2019-07-07&sr=c&sig=nW6q5r771MYvdFiK77eY6rdSVuShaRDGlW0j1oNixAU%3D&se=2024-08-18T07%3A38%3A28Z&sp=r);
+    background-repeat: no-repeat;
+    background-position: 0px 630px, 0px 0px;
+    background-attachment:local, fixed;
+    background-size: cover;  */
+}
+
+img{
+    border-radius: 10px;
+}
+
+body{
+    transition-duration: 50ms;  
+
+    overflow-x: hidden;
+}
+
+
+
+#CurrentPage::after{  
+    content: ' ';
+    display: block;
+    position: absolute;
+    height: 1.3px;
+    width: 45px;
+    background-color: #000000;
+    z-index: 3;
+} 
+
+main{
+    /* background-color: rgba(136, 59, 59, 0.945); */
+    height: 2000px;
+
+    /* centering\/ */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    /* background-color: #000000; */
+
+}
+
+#centering{
+    height: 100%;
+    /* width: 1650px; */
+    width: 86vw;
+    padding: 0px 0px;
+
+    /* background-color: #ff0000; */
+    /* centering\/ */
+
+    /* display: flex;
+    flex-direction: column; */
+
+    /* border: rebeccapurple solid 2px; */
+}
+
+.sections{
+    margin: 0px 0px 150px 0px;
+    height: 550px;
+    width: 100%;
+
+    /* background-color: green; */
+}
+
+p{
+    font-style: normal;
+    font-weight: 500;
+    /* font-family: Poppins; */
+
+    
+}
+
+.img_area_for_odd_number{
+    float: left;
+    /* width: 40%; */
+    width: 34vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: blue; */
+}
+
+.text_area_for_odd_number{
+    float: right;
+    /* width: 59%; */
+    width: 50vw;
+    height: 550px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    /* background-color: blueviolet; */
+}
+
+.first_img{
+    height: 660px;
+    /* height: 61vh; */
+
+    width: 495px;
+    /* width: 23vw; */
+    /* width: auto; */
+}
+
+.Th_img{
+    height: 660px;
+    /* height: 61vh; */
+
+    width: 495px;
+    /* width: 26vw; */
+    /* width: auto; */
+}
+
+.main_header{
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+
+transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+  
+.main_header_NoAnimation{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.main_header_NoAnimation p{
+    font-size: 40px;
+    height: 62px;
+    font-weight: 900;
+}
+
+.main_header.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.main_header p{
+    font-size: 40px;
+    height: 62px;
+    font-weight: 900;
+}
+
+.second_header{
+    padding: 30px 0px 30px 0px; 
+    display: flex;
+    justify-content: center;
+
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.second_header_NoAnimation{
+    padding: 30px 0px 30px 0px; 
+    display: flex;
+    justify-content: center;
+}
+
+.second_header_NoAnimation p{
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.second_header.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+.second_header p{
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 30px 0px;
+
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+  
+.imfo_NoAnimation{
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 30px 0px;
+}
+
+.info_NoAnimation p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#first_info{
+    width: 700px;
+}
+
+.info p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text_area_for_Even_number{
+    float: left;
+    /* width: 59%; */
+    width: 50vw;
+    height: 550px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img_area_for_Even_number{
+    float: right;
+    /* width: 40%; */
+    width: 34vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.read_more{
+    background-color: #00000077;
+    border-radius: 50px;
+    padding: 3px 10px;
+    color: #000000;
+}
+
+.second_img{
+    width: 612px;
+    height: auto;
+}
+
+.ErrorText{
+   color: #fff;
+   font-size: 0px;
+   text-align: center;
+}
+
+.siteBlocker{
+   width: 100%;
+   height: 0px;
+   background-color: rgb(22, 22, 22);
+   
+   /* padding: 15% 0px; */
+}
+
+.lord-icon1{
+    opacity: 0;
+}
