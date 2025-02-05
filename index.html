@@ -3,375 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Dvir Hasson</title>
-    <link rel="stylesheet" href="About_Style.css"/>
-    <link rel="stylesheet" href="Nav_Bar_Style.css"/>
-    <link rel="stylesheet" href="Footer_Style.css"/>
-    <link rel="stylesheet" href="dark_mode_style.css"/>
-    <link rel="stylesheet" href="button.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <title>Website Blocked</title>
+    <style>
+        /* Programmer-friendly font */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap'); /* Example: Roboto Mono */
 
-    <script type="text/javascript" src="function reveal.js"> </script>
-    <script type="text/javascript" src="reveal2.js"> </script>
-    <script type="text/javascript" src="reveal3.js"> </script>
-    
-    
-    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+        body {
+            font-family: 'Roboto Mono', monospace; /* Apply the font */
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            max-width: 450px;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+        .container:hover {
+            transform: translateY(-5px);
+        }
+        .icon {
+            font-size: 80px;
+            color: #ff3b30;
+            margin-bottom: 20px;
+            animation: bounce 1s infinite alternate;
+        }
+        @keyframes bounce {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-5px); }
+        }
+        h1 {
+            color: #333;
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .contact a {
+            color: #ff3b30;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        .contact a:hover {
+            color: #ff6b60;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff3b30;
+            color: #fff;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #ff6b60;
+        }
+    </style>
 </head>
-
-
 <body>
-    
-    <div class="siteBlocker">
-
-        <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
-<lord-icon
-    class="lord-icon1"
-    src="https://cdn.lordicon.com/pnwpbzow.json"
-    trigger="loop"
-    delay="1000"
-    colors="primary:#121331"
-    style="width:150px;height:150px">
-</lord-icon>
-        <p class="ErrorText"> You cannot connect to this <br> site with a vertical screen, <br> try to connect with <br> a computer with a <br> vertical screen</p></div>
-
-    <script> 
-       function updateElement() {
-           if (window.innerHeight > window.innerWidth) {
-   
-       // Get the element you want to change
-       const element = document.querySelector('.siteBlocker');
-     
-       // Set the new z-index property
-       element.style.height = '100vh';
-       element.style.width = '100%';
-   
-       // Set the new padding property
-       element.style.padding = '15% 0px';
-   
-       // Get the element you want to change the font size of
-     const textElement = document.querySelector('.ErrorText');
-   
-       // Set the new font size property
-       textElement.style.fontSize = '50px';
-   
-       // Set body overflow-y and X property to hidden
-       document.body.style.overflowY = 'hidden';
-       document.body.style.overflowX = 'hidden';
-       // Get the element you want to change the font size of
-     const iconElement = document.querySelector('.lord-icon1');
-
-     // Set the new font size property
-     iconElement.style.opacity = "1";
-     }
-   
-   
-   
-     if (window.innerHeight < window.innerWidth) {
-   
-   // Get the element you want to change
-   const element = document.querySelector('.siteBlocker');
-   
-   // Set the new z-index property
-   element.style.height = '0px';
-   
-   // Set the new padding property
-   element.style.padding = '0px 0px';
-   
-   // Get the element you want to change the font size of
-   const textElement = document.querySelector('.ErrorText');
-   
-   // Set the new font size property
-   textElement.style.fontSize = '0px';
-   
-   // Set body overflow-y property to hidden
-   document.body.style.overflowY = 'visible';
-
-   // Get the element you want to change the font size of
-   const iconElement = document.querySelector('.lord-icon1');
-
-// Set the new font size property
-iconElement.style.opacity = "0";
-   }
-   
-   }
-   setInterval(updateElement, 1000);
-   </script>
-
-<div id="nav_bar">
-
-    <div id="nav-bar-sub-div">
-
-
-
-        <div id="header-title-nav-wrapper">
-            <div id="header-main-title">
-                <div id="header-title-text">
-                    <a herf="">Dvir Hasson</a>
-                </div>
-            </div>
-
-
-
-    <div id="links-warper">
-
-
-            <div class="Fixing_The_Affter_Element">
-                <a class="nav-keys" >Home</a> 
-            </div>
-
-            <div class="Fixing_The_Affter_Element">
-                <a class="nav-keys" id="CurrentPage" >About</a>
-            </div>
-
-            <div class="Fixing_The_Affter_Element">
-                <a class="nav-keys">My projects</a>
-            </div>
-
-            <div class="Fixing_The_Affter_Element">
-                <a class="nav-keys">Video</a>
-            </div>
-
-            <div class="Fixing_The_Affter_Element">
-                <a class="nav-keys">Shop</a>
-            </div>
-
-            <div class="Fixing_The_Affter_Element">
-                <a class="nav-keys">My gear</a>
-            </div>
-
-            <div class="Fixing_The_Affter_Element">
-                <a class="nav-keys">Blog</a>
-            </div>
-
-            <div class="Fixing_The_Affter_Element">
-                <a class="nav-keys">Contact</a>
-            </div>
-
-            <div class="Fixing_The_Affter_Element">
-                <button id="dark-mode-button">
-                    <!-- <p>Dark Mode</p> -->
-                </button>
-            </div>
-
-            <!-- <div class="Fixing_The_Affter_Element">
-                <a href="">
-                    <button id="more_btn" class="learn-more">
-                    <span class="circle" aria-hidden="true">
-                    <span class="icon arrow"></span>
-                    </span>
-                    <span class="button-text">Learn More</span>
-                  </button>
-                </a>
-            </div> -->
-
-
-
-
-
+    <div class="container">
+        <div class="icon">🚫</div>
+        <h1>Access Denied</h1>
+        <p>We're sorry, but access to this website has been restricted by your administrator.</p>
+        <p>If you believe this is an error, please contact your IT support team.</p>
+        <p class="contact">Need help? <a href="#">Contact Support</a></p>
+        <a href="#" class="btn">Learn More</a>
     </div>
-
-
-
-            <div id="social-media-icons">
-
-                <a href="" target="_blank">
-                <div class="header-img-warper">
-                    <img src="https://cdn-icons-png.flaticon.com/256/739/739244.png" width="30px" height="30px">
-                </div>
-            </a>
-    
-            <a href="https://www.youtube.com/channel/UCgpB2uomF7trgRBqtGFyilA" target="_blank">
-                <div class="header-img-warper">
-                    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
-<lord-icon
-    src="https://cdn.lordicon.com/xddtsyvc.json"
-    trigger="morph"
-    colors="primary:#121331"
-    style="width:30px;height:30px">
-</lord-icon>
-                </div>
-            </a>
-    
-                    <div class="header-img-warper">
-                        <img src="https://www.freeiconspng.com/uploads/email-attachment-icon-8.png" width="30px" height="30px"  />
-                    </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
-
-<main>
-    <div id="centering">
-
-
-        <div class="sections" class="odd number">
-            <div class="img_area_for_odd_number">
-                <!-- <img class="main_img" src="https://images.squarespace-cdn.com/content/v1/60367ca7c45d794f12ccb688/1616771566605-HWWP2NJ1S64341P674XJ/Anthony+Gugliotta-Profile?format=750w" alt=""> -->
-                <img class="first_img" src="20230706_104838_V2.jpg" alt="">
-            </div>
-
-            <div class="text_area_for_odd_number">
-                <div class="main_header_NoAnimation">
-                    <p>Hi! My name is Dvir Hasson!</p>
-                </div>
-
-                <div class="second_header_NoAnimation">
-                    <p>I am a designer, programmer, and photographer from Israel.
-                        
-                    </p>
-                </div>
-                <hr width="70%">
-                <br>
-                <div class="info_NoAnimation" id="first_info">
-                    <p>I first started building and writing website's code when I completed a children's course during the summer vacation at the Technion.
-                        <br><br>
-                        Initially, programming and building websites was akin to a side hobby, but before long, it evolved into something <b>much greater!</b></p>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="sections" id="Even_number">
-
-
-            <div class="text_area_for_Even_number">
-                <div class="main_header">
-                    <p>So why write a website?</p>
-                </div>
-
-                <div class="second_header">
-                    <p>As everybody already know I could have easily just asked <i>chat GPT</i> or any other <i>AI module</i> to create a website. So why did I choose to write all the code by myself?
-                        <br>
-                         Why to go through all the trouble? <!--Why to get messy with an HTML file and another 4 CSS files? --></p>
-                </div>
-                <hr width="100%">
-                <div class="info">
-                    <p>The world of coding, programming, and design is my passion and playground.
-                        <br>
-                        I love the unparalleled sense of accomplishment that washes over you when you finally crack the code that's been a thorn in your side for an entire week.
-                        <br>
-                         I always love to improve the design or the application and stretch the limits. Not stretching the limits to the maximum, but <b>beyond the maximum.</b>
-                         <br>
-                          proving that there is no “maximum”, demonstrating that <b>limits are non-existent</b>, solutions are ever attainable, <b>improvements are endless</b>, and <b>the realm of possibilities knows no bounds</b>.
-
-                    </p>
-                    
-                </div>
-            </div>
-
-            <div class="img_area_for_Even_number">
-                <img class="second_img" src="Snapshot_6.PNG" alt="">
-                <!-- <img class="first_img" src="20230706_104838_V2.jpg" alt=""> -->
-            </div>
-
-        </div>
-
-        <div class="sections" class="odd number">
-            <div class="img_area_for_odd_number">
-                <!-- <img class="main_img" src="https://images.squarespace-cdn.com/content/v1/60367ca7c45d794f12ccb688/1616771566605-HWWP2NJ1S64341P674XJ/Anthony+Gugliotta-Profile?format=750w" alt=""> -->
-                <img class="Th_img" src="Snapshot_7.PNG" alt="">
-            </div>
-
-            <div class="text_area_for_odd_number">
-                <div class="main_header">
-                    <p>any other hobby¿</p>
-                </div>
-
-                <div class="second_header">
-                    <p>As you've already perused, my interests encompass both programming and designing. Nonetheless, these pursuits do not stand alone as my sole hobbies.</p>
-                
-                </div>
-        <hr width="100%">
-        <br>
-                <div class="info" id="third_info">
-                    <p>
-                        Engaging in Krav Maga is among my hobbies. My journey into learning its techniques and self-defence principles started when I was 5 years old.
-                        After a dedicated training of 7 years, I decided to step back and take a brake. The primary catalyst behind this choice... 
-                        <br><br>
-                        <a href="">
-                            <button id="more_btn" class="learn-more">
-                            <span class="circle" aria-hidden="true">
-                            <span class="icon arrow"></span>
-                            </span>
-                            <span class="button-text">Learn More</span>
-                          </button>
-                        </a>
-                        
-                        <!-- <div class="read_more"></div> -->
-                    <br><br>
-                    Another interest I have is piloting FPV and Photography drones. I possess both the "DJI Mavic Mini" and the "DJI FPV" models.
-                    <br>
-                    My entry into the realm of FPV was sparked by a YouTube video I stumbled upon, and I even shared some of the resulting footage of my flight on my own YouTube channel.
-                    <br>
-                    The primary function of my Mavic Mini revolves around capturing cinematic photos and videos.
-                    Lately, an exciting development emerged as <b>I received an invitation to employ my drone for recording and photographing a segment of a local school's graduation party</b>.
-                    <br><br>
-                    
-                    <a href="">
-                        <button id="more_btn" class="learn-more">
-                        <span class="circle" aria-hidden="true">
-                        <span class="icon arrow"></span>
-                        </span>
-                        <span class="button-text">Learn More</span>
-                      </button>
-                    </a>
-                    </p>
-                        </div>
-                    
-            </div>
-        </div>
-    </div>
-</main>
-
-
-
-
-
-<hr>
-
-
-
-<footer>
-
-<div id="crditWrapper">
-
-<div class="credit">
-<h1 class="credit-let" data-value="Created By Dvir Hasson">Created By Dvir Hasson</h1>
-<!-- <hr width="233"> -->
-<h1 class="credit-let">Designed By Dvir Hasson</h1>
-<!-- <hr width="233"> -->
-
-</div>
-
-
-<div class="credit">
-
-	<a target="_blank" title="click here to find Dvir Hasson on YT" class="Special_href" href="https://www.youtube.com/channel/UCgpB2uomF7trgRBqtGFyilA">
-		<span></span>
-		<span></span>
-		<span></span>
-		<span></span> Dvir Hasson on YT
-		<div class="shadow"></div>
-	</a>
-</div>
-
-</div>
-</footer>
-
 </body>
 </html>
-
-    <script>
-      const button = document.getElementById("dark-mode-button");
-      button.addEventListener("click", () => {
-        document.body.classList.toggle("dark-mode");
-      });
-    </script>
